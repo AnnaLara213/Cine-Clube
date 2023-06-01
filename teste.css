@@ -1,0 +1,26 @@
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-container {
+    flex-basis: 48%;
+    margin-bottom: 10px;
+}
+
+.input-container label,
+.input-container input,
+.input-container textarea {
+    width: 100%;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

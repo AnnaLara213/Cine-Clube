@@ -1,0 +1,39 @@
+.img1{
+    width: 772px;
+    height: 260px;
+    border: 15px solid rgb(90, 0, 0);
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(104, 0, 0);
+    border-width: 2px;
+}
+
+.imag-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.imag-container .imag-info{
+    width: 345px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imag-container img{
+    width: 345px;
+    height: 145px;
+    
+}
+.imag-info {
+    border: 15px solid rgb(90, 0, 0);
+
+}
+
